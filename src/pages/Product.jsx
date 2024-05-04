@@ -1,5 +1,5 @@
 import styles from "./Product.module.css";
-import img1 from "../../public/img-1.jpg";
+import img1 from "/img-1.jpg?url";
 import PageNav from "../components/PageNav";
 
 export default function Product() {

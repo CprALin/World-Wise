@@ -1,5 +1,5 @@
 import styles from "./Logo.module.css";
-import logoImg from "../../public/logo.png";
+import logoImg from "/logo.png";
 import { Link } from "react-router-dom";
 
 function Logo() {

@@ -1,6 +1,6 @@
 // Uses the same styles as Product
 import styles from "./Product.module.css";
-import img2 from "../../public/img-2.jpg";
+import img2 from "/img-2.jpg?url";
 import PageNav from "../components/PageNav";
 
 export default function Product() {
