@@ -25,9 +25,9 @@ export default function Login() {
   useEffect(function() {
      if(isAuth)
      {
-        navigate('/app');
+        navigate('/app' , {replace : true});
      }
-  },[isAuth]);
+  },[isAuth , navigate]);
 
   return (
     <main className={styles.login}>
